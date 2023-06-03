@@ -75,17 +75,3 @@ class Block {
   }
 }
 */
-
-class Class {
-  constructor() {
-    this.counterNumber = 0.5;
-  }
-  static getNumber() {
-    this.changeNumber();
-    console.log(this.counterNumber);
-    return this.counterNumber;
-  }
-  changeNumber() {
-    this.counterNumber *= 2;
-  }
-}
