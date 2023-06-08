@@ -23,9 +23,3 @@ function alphabetPosition(text) {
   }
   return resultArray.join(' ');
 }
-
-/*
-  .replace(/[^a-zA-Z]+/g, '')
-  */
-
-  console.log("  *\n ***\n*****\n ***\n  *\n");
